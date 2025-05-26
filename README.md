@@ -7,4 +7,6 @@ https://learn.microsoft.com/en-us/defender-xdr/alert-policies?view=o365-worldwid
   2) MSGraph call to find the required ID parameter for those emails.
   3) Utilize the ID parameter to delete those emails.
 
-Requires the EmailEvents table in Defender
+Requires:
+1) EmailEvents table in Defender
+2) API permissions: ThreatHunting.Read.All & Mail.ReadWrite
